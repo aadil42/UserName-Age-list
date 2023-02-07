@@ -10,11 +10,11 @@ const Form = (props) => {
     const addUser = (e) => {
         e.preventDefault(); // will  not load the page when form is submitted.
         if(validateData(user, age)) {
-            console.log('hehe');
             props.appendTolist(user,age);
             // add user
         } else {
-            alert('invalid input');
+            props.setIsValid(false);
+            // alert('invalid input');
             // invalid input // show error
         }
     }
@@ -51,7 +51,6 @@ const Form = (props) => {
             </form>
         </div>
     );
-
 };
 
 export default Form;
