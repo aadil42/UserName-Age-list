@@ -1,0 +1,22 @@
+
+.data-list-container {
+        background: #ffffff;
+        width: 50vw;
+        margin-top: 40px;
+        border-radius: 7px;
+        padding: 10px;
+        margin: auto;
+        margin-top: 40px;
+}
+.single-data {
+        border: 1px solid black;
+        padding: 5px;
+        margin: 5px;
+}
+
+@media screen and (max-width: 542px) {
+        .data-list-container {
+             width: 90vw;     
+        }
+}
+    

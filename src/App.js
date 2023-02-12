@@ -52,12 +52,12 @@ function App() {
     });
   }
   const hideError = () => {
-    setIsValid(false);
+    setIsValid(true);
   }
   return (
-    <div onClick={hideError}>
+    <div className="app-container" onClick={hideError}>
         <Form setIsValid={setIsValid} appendTolist={addToList} />
-        <DataList data={data} />
+          <DataList data={data} /> 
         {!isValid && <InvalidError setIsValid={setIsValid} />}
     </div>
   );

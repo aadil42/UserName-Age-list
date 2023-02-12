@@ -3,7 +3,7 @@
 const SingleData = (props) => {
 
     return (
-        <div>
+        <div class="single-data">
             {props.user}----{props.age}
         </div>
     )

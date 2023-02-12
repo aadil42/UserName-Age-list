@@ -5,9 +5,10 @@ const InvalidError = (props) => {
         props.setIsValid(true);
     }
     return (
-        <div>
-            enter valid user and age.
-            <button onClick={removeError}>ok</button>
+        <div className="error-container">
+            <h2 className="error-title">Invalid Input</h2> 
+            <p className ="error-text">please enter valid input</p>
+            <button className="error-button" onClick={removeError}>ok</button>
         </div>
     );
 }
