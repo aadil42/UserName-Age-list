@@ -31,8 +31,8 @@ const Form = (props) => {
     }
 
     return (
-        <div>
-            <form onSubmit={addUser}>
+        <div className="form-container">
+            <form className="form" onSubmit={addUser}>
             <label htmlFor="username">Username</label>
             <input
                 id="username"
