@@ -23,11 +23,11 @@ import React, { useState } from 'react';
 // 			it will have button "okay" when clicking on it it will hide the error component 
 // 			clicking anywhere except the error component will also hide the component 
 
-
-
+/// ------------------------------------------done------------------------------------
 
 // add styling.
 
+// ----------------------------------------done---------------------------------
 
 	
 	
