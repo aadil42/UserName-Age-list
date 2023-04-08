@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 	
+
+// getting components
+import AddUsers from './Components/Users/AddUsers';
+
 function App() {
 
   return (
-    <div>test</div>
+    <div>
+      <AddUsers />
+    </div>
   );
 }
 
