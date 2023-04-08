@@ -5,10 +5,13 @@ import React, { useState } from 'react';
 import AddUsers from './Components/Users/AddUsers';
 
 function App() {
-
+  const addUsersHandle = (userName, userAge) => {
+      console.log(userName, userAge);
+  }
+  
   return (
     <div>
-      <AddUsers />
+      <AddUsers addUsersHandle={addUsersHandle} />
     </div>
   );
 }
