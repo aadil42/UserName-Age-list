@@ -36,7 +36,7 @@ const AddUsers = (props) => {
     }
 
     return ( 
-        <div>
+        <React.Fragment>
             {error && 
             <ErrorModule 
             title="Oops, wrong input"
@@ -65,7 +65,7 @@ const AddUsers = (props) => {
                 </Button>
                 </form>
             </Card>
-        </div>
+        </React.Fragment>
     );
 }
 
